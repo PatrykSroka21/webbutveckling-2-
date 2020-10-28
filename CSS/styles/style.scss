@@ -1,0 +1,25 @@
+@import './variables';
+@import './functions';
+
+
+
+
+.contact{
+    background: blue;
+    height: 1000px;
+    width: 1000px;
+    @include flexCenter(column, red);
+    button{
+        background: $primaryButton ;
+        height: 100px;
+        width: 100px;
+        &:hover{
+            background: #ffffff;
+        }
+    }
+}
+
+
+
+
+

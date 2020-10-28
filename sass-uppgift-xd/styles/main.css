@@ -1,0 +1,44 @@
+.topnav {
+  background-color: #180b50;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav .topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.img-container {
+  text-align: center;
+  display: block;
+  margin: 10px auto 20px;
+  display: block;
+  color: #ebebeb;
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.img-container img {
+  -webkit-box-shadow: 5px 10px #180b50;
+          box-shadow: 5px 10px #180b50;
+  border-radius: 8px;
+}
+
+body {
+  background-color: #030303;
+}
+/*# sourceMappingURL=main.css.map */

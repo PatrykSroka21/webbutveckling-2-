@@ -1,0 +1,23 @@
+body {
+  background-color: #b616a9;
+}
+
+.test {
+  color: 169px;
+  font-size: 169px;
+  color: white;
+  font-size: white;
+  text-align: center;
+}
+
+.image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 700px;
+  height: 400px;
+}
+/*# sourceMappingURL=master.css.map */

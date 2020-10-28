@@ -1,0 +1,42 @@
+@import "./functions";
+@import "./variabels";
+
+
+.topnav {
+    background-color: $backgroundColor;
+    overflow: hidden;
+    a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .topnav a.active {
+        background-color: #4CAF50;
+        color: white;
+      }
+  }
+
+  .img-container {
+    text-align: center;
+    display: block;
+    margin: 10px auto 20px;
+    display: block;
+    color: rgb(235, 235, 235);
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        img{
+            box-shadow: 5px 10px rgb(24, 11, 80);
+            border-radius: 8px;
+        }
+  }
+
+body{
+    background-color: rgb(3, 3, 3);
+}

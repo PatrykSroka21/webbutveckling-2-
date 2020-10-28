@@ -1,0 +1,12 @@
+@import "./variables";
+
+
+@mixin color($color){
+    background-color: $color;
+}  
+
+@mixin changes__font ($font) {
+    color: $font;
+    font-size: $font;
+    
+}

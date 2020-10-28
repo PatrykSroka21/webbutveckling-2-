@@ -1,0 +1,45 @@
+.topnav {
+  background-color: #180b50;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav .topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+body {
+  background-color: #180b50;
+}
+
+.smr {
+  float: left;
+  color: white;
+}
+
+.smr img {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.smr_text {
+  color: white;
+  float: left;
+  font-size: 25px;
+  width: 45%;
+}
+/*# sourceMappingURL=maps.css.map */
