@@ -41,5 +41,17 @@ body {
   float: left;
   font-size: 25px;
   width: 45%;
+  height: 200px;
+}
+
+.ha {
+  float: right;
+  width: 50%;
+  height: 200px;
+}
+
+.nb {
+  float: left;
+  width: 50%;
 }
 /*# sourceMappingURL=maps.css.map */
